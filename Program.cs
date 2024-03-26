@@ -17,13 +17,13 @@ namespace Course
             Console.WriteLine();
             Console.WriteLine("Dados do produto: " + p);
             Console.WriteLine();
-            Console.Write("Digite o número de produtos a ser adicionado ao estoque: ");
+            Console.Write("Digite a quantidade de produtos a ser adicionado ao estoque: ");
             int qte = int.Parse(Console.ReadLine());
             p.AdicionarProdutos(qte);
             Console.WriteLine();
             Console.WriteLine("Dados atualizados: " + p);
             Console.WriteLine();
-            Console.Write("Digite o número de produtos para ser removido do estoque: ");
+            Console.Write("Digite a quantidade de produtos para ser removido do estoque: ");
             qte = int.Parse(Console.ReadLine());
             p.RemoverProdutos(qte);
             Console.WriteLine();
